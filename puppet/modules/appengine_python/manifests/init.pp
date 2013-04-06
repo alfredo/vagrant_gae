@@ -7,8 +7,6 @@ class appengine_python (
 
   include wget
 
-  include appengine_python::symlinks
-
   $sdk_url = "${sdk_base_url}/${sdk_file}"
   $sdk_zip_path = "/var/tmp/${sdk_file}"
   $install_dir = "${install_dir_prefix}/${appengine_version}"

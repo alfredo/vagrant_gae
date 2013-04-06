@@ -1,0 +1,8 @@
+name "appengine-python"
+version '0.1.0'
+summary 'This module will install the Python Google App Engine SDK"
+description "This module installs the Python Google App Engine SDK. It does so by downloading the SDK from Google using wget."
+dependency 'maestrodev/puppet-wget.git'
+project_page 'http://github.com/cloudnautique/puppet-appengine-python'
+source 'http://github.com/cloudnautique/puppet-appengine-python.git'
+author 'cloudnautique'
